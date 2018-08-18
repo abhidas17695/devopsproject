@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class TestProj {
+public class TestAdd {
 
 	@Test
 	public void testAddFloat() {
@@ -16,6 +16,4 @@ public class TestProj {
 		AddServlet obj=new AddServlet();
 		assertEquals(10,obj.add(5,5),0);
 	}
-	
-
 }
